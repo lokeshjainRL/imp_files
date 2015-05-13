@@ -16,6 +16,7 @@ module.exports = function (config) {
       // (these files will be instrumented by Istanbul)
       'app/modules/**/*.js': ['coverage'],
       // To make directive avaiable to the testing without making server call
+      //NOte: this don't forget to include same html file in gulp task.
       'app/modules/**/*.html': ['ng-html2js']
     },
 
